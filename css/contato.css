@@ -1,0 +1,127 @@
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu li img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icone {
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.textoMenu {
+    margin-left: 20px;
+
+    font-weight: bold;
+    color: #4F0065;
+}
+
+.logo {
+    padding: 8px;
+}
+
+.logoNome {
+    font-size: 20px;
+}
+
+.textoImagem {
+    font-size: 30px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    background-image: url(../img/contatos.jpg);
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.box-centralizada {
+    background-color: rgb(84, 102, 109);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    border: 2px solid #030303;
+}
+
+.pessoa {
+    margin-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+.nome {
+    background-color: #ecf3f3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nome h2 {
+    margin: 0;
+}
+
+.pessoa p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.email-link {
+    color: rgb(16, 31, 75);
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+.boxLogin {
+    align-items: center;
+    margin-left: 10rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .boxImagem {
+    
+    padding: 8rem;
+    background: rgba(0,7,65,1);
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boxGeral {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .button {
+    margin-top: 2rem;
+    color: white;
+    background-color: #0C21C1;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 32px;
+  }
+  
+  .button:hover {
+    background-color: #081789;
+  }
+  
+  .campo {
+    width: 100%;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .mudardepag {
+    color: #FBBC05;
+  }
